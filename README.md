@@ -57,9 +57,12 @@ To provide a high-quality Scenario-Based Report, let’s apply your specific pro
     AI Architectures"Compare and contrast Machine Learning (ML) and Deep Learning (DL). Focus on data requirements, hardware dependencies, and feature engineering".
 
    Generated Output:
-      -  Machine Learning: Often requires structured data and manual "feature engineering" (humans must label what the AI should look for). It can run on standard CPUs.
-      -  Deep Learning: A subset of ML based on neural networks. It performs "automatic feature extraction" but requires massive unstructred datasets and high-performance GPUs to handle complex matrix multiplications.
-      -  The Key Difference: While all Deep Learning is Machine Learning, DL is distinct in its ability to scale performance with data volume, whereas traditional ML often plateaus.
+      -  Machine Learning: 
+	       Often requires structured data and manual "feature engineering" (humans must label what the AI should look for). It can run on standard CPUs.
+      -  Deep Learning:
+	       A subset of ML based on neural networks. It performs "automatic feature extraction" but requires massive unstructred datasets and high-performance GPUs to handle complex matrix multiplications.
+      -  The Key Difference: 
+	       While all Deep Learning is Machine Learning, DL is distinct in its ability to scale performance with data volume, whereas traditional ML often plateaus.
         
 --  Example Prompt B: Energy Sources
 "How do Renewable and Non-Renewable energy sources differ in terms of 'Energy Return on Investment' ($EROI$) and environmental footprint?"
@@ -95,7 +98,6 @@ To provide a high-quality Scenario-Based Report, let’s apply your specific pro
 3. Everyday Functioning Prompts Definition:
 
    These prompts bridge the gap between "High-Level Theory" and "Practical Reality." They explain how complex systems operate in the background of a user's daily life.
-
   --- Example A: Machine Learning in StreamingPrompt: 
         "Describe the role of machine learning in the everyday functioning of apps like YouTube or Netflix. How does it decide what I see next?"
     -- Generated Output:
