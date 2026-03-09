@@ -28,21 +28,21 @@ Definition: Asking for a comparison between two or more concepts, often highligh
 •	"How do renewable and non-renewable energy sources differ?"
 
 Experiential Perspective Prompt:
-> 	“As a software engineer, what are the benefits of using cloud computing in your projects?”
->  “From a student’s perspective, describe the challenges of online learning.”
+	* “As a software engineer, what are the benefits of using cloud computing in your projects?”
+ * “From a student’s perspective, describe the challenges of online learning.”
 
 Everyday Functioning Prompts:
-*	  “Describe the role of machine learning in everyday apps like YouTube or Netflix."
-*	 	“How is encryption used in daily life when sending WhatsApp messages?”
+*	 “Describe the role of machine learning in everyday apps like YouTube or Netflix."
+*		“How is encryption used in daily life when sending WhatsApp messages?”
 
 Universal Prompt Structures:
-^ 	“Explain [concept] in simple terms with an example.”
-^  “Explain the process of [task] step by step.”
+* 	“Explain [concept] in simple terms with an example.”
+*  “Explain the process of [task] step by step.”
 
 Prompt Size Limitations:
-&  	“Translate this 5000-word essay into Tamil.”
+* 	“Translate this 5000-word essay into Tamil.”
 → Manageable chunks: “Translate the first 1000 words into Tamil, then continue.”
-&  “Give me 50 examples of AI applications.”
+*  “Give me 50 examples of AI applications.”
 → Adjust for size: “Give me 10 AI applications at a time.    
 
 ## output:
@@ -55,6 +55,7 @@ To provide a high-quality Scenario-Based Report, let’s apply your specific pro
    
  -- Example Prompt A:
     AI Architectures"Compare and contrast Machine Learning (ML) and Deep Learning (DL). Focus on data requirements, hardware dependencies, and feature engineering".
+
    Generated Output:
       -  Machine Learning: Often requires structured data and manual "feature engineering" (humans must label what the AI should look for). It can run on standard CPUs.
       -  Deep Learning: A subset of ML based on neural networks. It performs "automatic feature extraction" but requires massive unstructred datasets and high-performance GPUs to handle complex matrix multiplications.
@@ -109,8 +110,9 @@ To provide a high-quality Scenario-Based Report, let’s apply your specific pro
         -- Generated Output: 
            -  Public Key Exchange: 
                 When you message a friend, your phone fetches their "Public Key" from the server.
-            - The Lock: Your message is locked using that key. Only your friend’s "Private Key" (stored only on their phone) can open it.
-            - The Transit: Even if a hacker or the service provider intercepts the message in the middle, they see only a garbled string of characters ($C = m^e \pmod n$).             - Evaluation: This explains Technical Trust. It’s essential for a report on Data Privacy Compliance.
+           - The Lock: Your message is locked using that key. Only your friend’s "Private Key" (stored only on their phone) can open it.
+           - The Transit: Even if a hacker or the service provider intercepts the message in the middle, they see only a garbled string of characters ($C = m^e \pmod n$).             
+           - Evaluation: This explains Technical Trust. It’s essential for a report on Data Privacy Compliance.
 
      
 4. Universal Prompt Structures
@@ -118,7 +120,8 @@ To provide a high-quality Scenario-Based Report, let’s apply your specific pro
   Definition: These are "Master Templates" designed to strip away AI jargon and provide structured, logical explanations that anyone—from an intern to a CEO—can understand.
 
 -- Structure A: "Explain [Concept] in simple terms with an example."
-Prompt: "Explain Quantum Superposition in simple terms with a real-world financial example."
+  - Prompt: 
+       "Explain Quantum Superposition in simple terms with a real-world financial example."
 
   - Generated Output:
     * Simple Terms:
@@ -131,10 +134,10 @@ Prompt: "Explain Quantum Superposition in simple terms with a real-world financi
          This is the Executive Summary layer. It makes a complex, abstract topic "sticky" and easy to present in a slide deck.
 
 --- Structure B: "Explain the process of [Task] step by step."
-  Prompt: "Explain the process of Running a Monte Carlo Simulation for a stock portfolio step by step."
+   - Prompt: 
+         "Explain the process of Running a Monte Carlo Simulation for a stock portfolio step by step."
 
  -- Generated Output:
-
    - Define Variables:
        Identify the stock’s historical volatility and average return.
    - Generate Randomness:
@@ -152,7 +155,6 @@ Prompt: "Explain Quantum Superposition in simple terms with a real-world financi
    Managing the "Context Window" and "Output Token Limit." If a prompt is too massive (e.g., "Analyze this 100-page PDF"), the AI may lose track of earlier instructions or "hallucinate" to fill in gaps.
    
    -- Example A: The Translation/Transformation Task
-   
    - Prompt:
       I have a 5,000-word technical audit on carbon emissions. Translate the first 1,000 words into Tamil, focusing on the Executive Summary and Methodology.
    - Strategy (Manageable Chunks):
@@ -160,6 +162,7 @@ Prompt: "Explain Quantum Superposition in simple terms with a real-world financi
      
    -- Example B: The High-Volume BrainstormPrompt:
        "I need a comprehensive list of 50 AI applications in Environmental Science. Give me 10 applications at a time, categorized by 'Oceanic,' 'Atmospheric,' and 'Terrestrial' impact.
+   
      Generated Output (Batch 1 of 5):
         - Oceanic:
             Satellite imagery + ML to track illegal fishing in real-time.
@@ -172,4 +175,5 @@ Prompt: "Explain Quantum Superposition in simple terms with a real-world financi
 
 
 
-# Result: The various types of Prompts are executed successfully with generated the report.
+# Result: 
+   The various types of Prompts are executed successfully with generated the report.
