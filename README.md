@@ -113,7 +113,6 @@ To provide a high-quality Scenario-Based Report, let’s apply your specific pro
            -  Public Key Exchange: 
                 When you message a friend, your phone fetches their "Public Key" from the server.
            - The Lock: Your message is locked using that key. Only your friend’s "Private Key" (stored only on their phone) can open it.
-		   
            - The Transit: Even if a hacker or the service provider intercepts the message in the middle, they see only a garbled string of characters ($C = m^e \pmod n$).             
            - Evaluation: This explains Technical Trust. It’s essential for a report on Data Privacy Compliance.
 
