@@ -28,12 +28,12 @@ Definition: Asking for a comparison between two or more concepts, often highligh
 •	"How do renewable and non-renewable energy sources differ?"
 
 Experiential Perspective Prompt:
-	* “As a software engineer, what are the benefits of using cloud computing in your projects?”
+ * “As a software engineer, what are the benefits of using cloud computing in your projects?”
  * “From a student’s perspective, describe the challenges of online learning.”
 
 Everyday Functioning Prompts:
 *	 “Describe the role of machine learning in everyday apps like YouTube or Netflix."
-*		“How is encryption used in daily life when sending WhatsApp messages?”
+*	“How is encryption used in daily life when sending WhatsApp messages?”
 
 Universal Prompt Structures:
 * 	“Explain [concept] in simple terms with an example.”
@@ -41,9 +41,9 @@ Universal Prompt Structures:
 
 Prompt Size Limitations:
 * 	“Translate this 5000-word essay into Tamil.”
-→ Manageable chunks: “Translate the first 1000 words into Tamil, then continue.”
+  Manageable chunks: “Translate the first 1000 words into Tamil, then continue.”
 *  “Give me 50 examples of AI applications.”
-→ Adjust for size: “Give me 10 AI applications at a time.    
+    adjust for size: “Give me 10 AI applications at a time.    
 
 ## output:
 
@@ -97,7 +97,7 @@ To provide a high-quality Scenario-Based Report, let’s apply your specific pro
    These prompts bridge the gap between "High-Level Theory" and "Practical Reality." They explain how complex systems operate in the background of a user's daily life.
 
   --- Example A: Machine Learning in StreamingPrompt: 
-       "Describe the role of machine learning in the everyday functioning of apps like YouTube or Netflix. How does it decide what I see next?"
+        "Describe the role of machine learning in the everyday functioning of apps like YouTube or Netflix. How does it decide what I see next?"
     -- Generated Output:
           - Data Collection: 
           The system tracks watch time, "skips," and even how long you hover over a thumbnail.Collaborative Filtering: It compares your profile to millions of "Lookalike Audiences." If User A and User B both liked Movie X, and User A liked Movie Y, the ML model predicts User B will also like Movie Y.
@@ -111,6 +111,7 @@ To provide a high-quality Scenario-Based Report, let’s apply your specific pro
            -  Public Key Exchange: 
                 When you message a friend, your phone fetches their "Public Key" from the server.
            - The Lock: Your message is locked using that key. Only your friend’s "Private Key" (stored only on their phone) can open it.
+		   
            - The Transit: Even if a hacker or the service provider intercepts the message in the middle, they see only a garbled string of characters ($C = m^e \pmod n$).             
            - Evaluation: This explains Technical Trust. It’s essential for a report on Data Privacy Compliance.
 
@@ -164,13 +165,14 @@ To provide a high-quality Scenario-Based Report, let’s apply your specific pro
        "I need a comprehensive list of 50 AI applications in Environmental Science. Give me 10 applications at a time, categorized by 'Oceanic,' 'Atmospheric,' and 'Terrestrial' impact.
    
      Generated Output (Batch 1 of 5):
-        - Oceanic:
+        * Oceanic:
             Satellite imagery + ML to track illegal fishing in real-time.
-        - Atmospheric:
+        *  Atmospheric:
             Deep Learning models predicting $CO_2$ dispersion patterns.
-        - Terrestrial: Computer Vision drones for autonomous reforestation (seed bombing).(...followed by 7 more examples)
-        - Evaluation:
-            By forcing "10 at a time," you get High-Density Data. If you asked for 50 at once, the AI might give you 20 detailed ones and 30 generic, one-sentence "fluff" entries to finish the list.
+        * Terrestrial:
+             Computer Vision drones for autonomous reforestation (seed bombing).(...followed by 7 more examples)
+        * Evaluation:
+             By forcing "10 at a time," you get High-Density Data. If you asked for 50 at once, the AI might give you 20 detailed ones and 30 generic, one-sentence "fluff" entries to finish the list.
 
 
 
